@@ -3,7 +3,6 @@
  */
 
 
-
 html5Tag();
 
 window.onload = deleteBtnSearch;
@@ -29,3 +28,4 @@ function deleteBtnSearch() {
         searchIcon.style.display = "block";
     }
 }
+

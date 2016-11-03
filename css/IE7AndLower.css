@@ -1,0 +1,57 @@
+body{
+    margin:auto;
+    text-align: center;
+    font-size: 16px;
+    font-family: Helvetica Neue,sans-serif;
+}
+
+.ErrorIE7{
+    margin-top: 100px;
+    background:#fff;
+    width: 50%;
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+.ErrorIE7 > h2{
+    margin: 20px 0 10px;
+    font-weight: 700;
+    font-size: 1em;
+}
+.ErrorIE7 > p{
+    font-size: 0.9em;
+}
+.containerGoodBrowser{
+    margin:20px 0;
+}
+.containerGoodBrowser > a {
+    width: 80px;
+    height: 110px;
+    padding: 20px;
+    margin:0 10px;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+.containerGoodBrowser > a:hover{
+    background-color: #f5f7fa;
+}
+.containerGoodBrowser  span{
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.google-image{
+    background: url(../img/browser.png) no-repeat 0 -164px;
+}
+.firefox-image{
+    background: url(../img/browser.png) no-repeat 0 -82px;
+}
+.opera-image{
+    background: url(../img/browser.png) no-repeat 0 -246px;
+}
+.safari-image{
+    background: url(../img/browser.png) no-repeat 0 0;
+}

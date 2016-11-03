@@ -18,6 +18,9 @@
         font-size: 1.125em;
         padding:30px 3px 29px 2px;
     }
+    .sub-menu{
+        left:0;
+    }
     .container-content{
         width: 940px;
     }

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=8">
+
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+    <title>МосГазета</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" media="(min-device-width:768px)" href="css/middle-device.css">
+    <link rel="stylesheet" media="(min-device-width: 979px)" href="css/large-device.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <script src="js/main.js"></script>
+
+
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" href="css/ie-style.css" />
+    <script src="js/html5-tags-for-ie.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="container">
+    <header class="header">
+        <div class="search-btn" id="search-btn">
+            <a href="#">
+                <i class="fa fa-search search-image" aria-hidden="true"></i>
+            </a>
+        </div>
+        <div class="logo-container">
+            <a href="#">
+                <img src="img/mosgazeta.png" alt="Logo" class="logo-img">
+            </a>
+        </div>
+
+        <!-- MOBILE VERSION NAVIGATION-->
+        <label class="mobile-menu-button">
+            <input type="checkbox" id="open-mobile-navigation-input"/>
+            <i class="fa fa-bars" aria-hidden="true"></i>
+            <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+        </label>
+        <!-- END MOBILE VERSION NAVIGATION-->
+
+        <nav class="nav" id="navigation">
+            <ul class="navigation-list-container">
+                <li class="nav-list-item"><a class="nav-link-item navigation-list-border-after" href="#">Репортажи</a></li>
+                <li class="nav-list-item"><a class="nav-link-item navigation-list-border-after" href="#">Новости</a></li>
+                <li class="nav-list-item"><a class="nav-link-item navigation-list-border-after" href="#">Расследования</a></li>
+                <li class="nav-list-item"><a class="nav-link-item navigation-list-border-after" href="#">Очерки</a></li>
+                <li class="nav-list-item"><a class="nav-link-item navigation-list-border-after" href="#">Аналитика</a></li>
+                <li class="nav-list-item sub-menu-visible">
+                    <a class="nav-link-item" href="#">О нас</a>
+                    <ul class="sub-menu">
+                        <li><a href="#" class="link-sub-menu">Слово Главного Редактора</a></li>
+                        <li><a href="#" class="link-sub-menu">Авторы</a></li>
+                        <li><a href="#" class="link-sub-menu">Контакты</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="content">
+        <main role="main" class="container-content">
+            <aside class="rubric">
+                <h3>Рубрики</h3>
+                <ul>
+                    <li class="rubric-list-item"><a href="#" class="rubric-link-item">Бизнес</a></li>
+                    <li class="rubric-list-item"><a href="#" class="rubric-link-item">Власть</a></li>
+                    <li class="rubric-list-item"><a href="#" class="rubric-link-item">ЖКХ</a></li>
+                    <li class="rubric-list-item"><a href="#" class="rubric-link-item">История</a></li>
+                    <li class="rubric-list-item"><a href="#" class="rubric-link-item">Общество</a></li>
+                    <li class="rubric-list-item"><a href="#" class="rubric-link-item">Происшествия</a></li>
+                    <li class="rubric-list-item"><a href="#" class="rubric-link-item">Строительство</a></li>
+                    <li class="rubric-list-item"><a href="#" class="rubric-link-item">Технологии</a></li>
+                    <li class="rubric-list-item"><a href="#" class="rubric-link-item">Транспорт</a></li>
+                    <li class="rubric-list-item"><a href="#" class="rubric-link-item">Экология</a></li>
+                </ul>
+            </aside>
+            <section class="news-block">
+                <article class="article">
+                    <div class="document-icon">
+                        <i class="fa fa-file-text-o fa-2x " aria-hidden="true"></i>
+                    </div>
+                    <header>
+                        <h2><a href="#" class="header-link-news">В Коммунарке с размахом отмечают «День жестянщика»</a>
+                        </h2>
+                        <div class="meta-space">
+                            <span class="element-meta-space"><i class="fa fa-calendar" aria-hidden="true"></i>
+                                <a href="#">Четверг, 27.10.2016</a>
+                            </span>
+                            <span class="element-meta-space">
+                                <a href="#">Михаил Трушин</a>
+                            </span>
+                            <span class="element-meta-space">
+                                <i class="fa fa-cloud" aria-hidden="true"></i>
+                                <a href="#">Происшествия</a>
+                            </span>
+                            <span class="element-meta-space">
+                                <i class="fa fa-tag rotate-icon" aria-hidden="true"></i>
+                                <a href="#">Новости</a>,
+                                <a href="#">Репортажи</a>,
+                                <a href="#">Сосенское</a>
+                            </span>
+                            <span class="element-meta-space no-after-element">
+                                <i class="fa fa-eye" aria-hidden="true"></i>
+                                <a href="#">393</a>
+                            </span>
+                        </div>
+                    </header>
+                    <section class="content-news-section">
+                        <figure class="featured featured-large"><img src="img/article-image.jpg" alt="News Photo">
+                        </figure>
+                        <div class="information-news-text">Сразу три мелких ДТП произошли сегодня практически
+                            одновременно на придомовой территории жилого комплекса "Зеленая линия" в поселке Коммунарка.
+                            Причиной является неосмотрительное поведение водителей при резко изменившейся погоде: ночью
+                            в столице выпал снег, на дорогах стало скользко. Ситуацию усугубляет температура воздуха,
+                            которая колеблется около нулевой отметки. В результате проезжая часть местами покрыта
+                            опасной наледью. Проезд между домами 5 ...
+                        </div>
+                        <div class="view-news"><a href="#">Делее...</a></div>
+                    </section>
+                </article>
+            </section>
+        </main>
+    </div>
+    <footer class="footer"></footer>
+</div>
+</body>
+</html>

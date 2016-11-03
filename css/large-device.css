@@ -1,0 +1,40 @@
+
+@media (min-width: 979px){
+    .container-content{
+        max-width:1170px;
+    }
+    .search-btn{
+        width: 70px;
+        height: 70px;
+        font-size: 2em;
+    }
+    .search-btn a{
+        line-height: 2em;
+    }
+    .nav {
+        max-width: 1170px;
+    }
+    .nav-link-item{
+        font-size: 1.125em;
+        padding:30px 3px 29px 2px;
+    }
+    .container-content{
+        width: 940px;
+    }
+    .rubric{
+        padding: 40px;
+        width: 30.85106382978723%;
+    }
+    .article{
+        padding:60px;
+    }
+}
+@media(min-width: 1200px){
+    .container-content{
+        width: 1170px;
+    }
+    .rubric{
+        padding: 54px;
+        width: 31.62393162393162%;
+    }
+}

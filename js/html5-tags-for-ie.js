@@ -3,9 +3,12 @@
  */
 
 
+
 html5Tag();
+
 window.onload = deleteBtnSearch;
 window.onresize = deleteBtnSearch;
+
 
 
 function html5Tag() {
@@ -16,8 +19,6 @@ function html5Tag() {
     document.createElement('article');
     document.createElement('aside');
     document.createElement('footer');
-
-    console.log("ie tags");
 }
 function deleteBtnSearch() {
     var searchIcon = document.getElementById("search-btn");

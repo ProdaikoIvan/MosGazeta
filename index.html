@@ -16,14 +16,21 @@
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <script src="js/main.js"></script>
 
-
-    <!--[if lte IE 8]>
-    <link rel="stylesheet" href="css/ie-style.css" />
-    <script src="js/html5-tags-for-ie.js"></script>
+    <!--[if IE]>
+        <script src="js/html5-tags-for-ie.js"></script>
+        <link rel="stylesheet" href="css/ie-style.css" />
     <![endif]-->
 </head>
 <body>
 <div class="container">
+    <noscript>
+        <div class="alert-danger" role="alert">
+            <a href="http://www.enable-javascript.com/ru/" target="_blank" title="Перейти к инструкции" class="alert-danger-link">
+                <h2>Для полной функциональности этого сайта необходимо включить JavaScript.</h2>
+                <p>Нажмите на это сообщения для перехода к инструкции</p>
+            </a>
+        </div>
+    </noscript>
     <header class="header">
         <div class="search-btn" id="search-btn">
             <a href="#"  title="Поиск">
